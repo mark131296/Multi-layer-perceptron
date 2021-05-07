@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 
-namespace PerceptronVideo
+namespace PerceptronMejorado
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace PerceptronVideo
         static int outputCount = 1;
 
         static bool saveNetwork = true;
-        static bool loadNetwork = true;
+        static bool loadNetwork = false;
 
         static double inputMax = 1;
         static double inputMin = 0;
